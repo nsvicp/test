@@ -1,6 +1,6 @@
 ---
 - name: test yaml
-  hosts: xuegod64.cn
+  hosts: all
   tasks:
     - name: yum install Apache
       yum:
